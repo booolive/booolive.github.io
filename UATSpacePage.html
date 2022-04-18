@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<!--
+    i am boone oliverio
+    i made this on 3/28/2022
+    i am putting data in so that you can see it
+    it updates every 5 seconds
+    yell at me at
+    booolive@uat.edu
+-->
+
+<head>
+    <script src="code.js"></script>
+    <script src="dataLoader.js"></script>
+    <script src="launchDataDis.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var theTime = new Date();
+        var tempTime = new Date();
+        var lastIteration = 0;
+        var timeInterval = 5000;
+        var running = true;
+        var index = 0;
+        var timer;
+        var data = loadData();
+    </script>
+    <title>
+        boone oliverio information
+    </title>
+    <!-- i want it pink -->
+    <style>
+        body {
+            background-image: linear-gradient(270deg,pink,rgb(202,101,202))
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <td><marquee scrollamount="30" direction="down"><img src="UATspaceLogo-1.jpg"></marquee></td>
+        <td><h1>UAT SPACE PROGRAM</h1></td>
+    </table>
+
+    <table id="data" border="2" width="70%">
+        <col style="width: 35%">
+        <thead>
+            <th>data type</th>
+            <th>value</th>
+        </thead>
+        <tbody>
+            <tr id="seconds">    </tr>
+            <tr id="latitude">     </tr>
+            <tr id="longitude">   </tr>
+            <tr id="gpsAltitude"> </tr>
+            <tr id="bmpAltitude"> </tr>
+            <tr id="bmpPressure"> </tr>
+            <tr id="bmpTemp">     </tr>
+            <tr id="digTemp">     </tr>
+            <tr id="cssTemp">     </tr>
+            <tr id="csseCO2">     </tr>
+            <tr id="cssTVOC">     </tr>
+            <tr id="UV">          </tr>
+            <tr id="accelX">      </tr>
+            <tr id="accelY">      </tr>
+            <tr id="accelZ">      </tr>
+            <tr id="magnetX">     </tr>
+            <tr id="magnetY">     </tr>
+            <tr id="magnetZ">     </tr>
+            <tr id="gyroX">       </tr>
+            <tr id="gyroY">       </tr>
+            <tr id="gyroZ">       </tr>
+        </tbody>
+    </table>
+    <br>
+    <div id = "timeStamp">(press start to begin reading data)</div>
+    <br>
+    <marquee scrollamount="15" direction="left" ><h2>UAT IN SPACE WOO HOO YES! SPACE WOOHOO YES! UAT YAY YES! UAT YES UAT IN SPACE WOO HOO YES! WOOHOO SPACE WOO HOO YES! UAT IN SPACE WOO HOO YES!</h2></marquee>
+    <marquee scrollamount="15" direction="right"><h2>SPACE WOOHOO YES! UAT YAY UAT IN SPACE WOO HOO YES! UAT IN SPACE WOO HOO YES! SPACE WOOHOO YES! UAT YAY UAT YAY YES! UAT YES UAT IN SPACE YES!</h2></marquee>
+    
+
+    <button id="startButton" onclick = "startReadings();">
+        Start
+    </button>
+    <button id="stopButton"  onclick = "stopReadings();">
+        Stop
+    </button>
+    <br>
+    <img src="door1.jpg">
+    <a href="./boards.html">what Devious?! things Await?! in the BOARDS</a>
+    <img src="door3.jpg">
+    <a href="./index.html">no matter where you go.. ., it is the INDEX</a> 
+</body>
+
+</html>

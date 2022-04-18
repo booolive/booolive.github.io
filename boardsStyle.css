@@ -1,0 +1,28 @@
+body {
+    background-image: radial-gradient(pink 25%,rgb(238, 129, 238) 50%)
+}
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 3s linear infinite;
+}
+
+.marquee p {
+    display: inline-block;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0%, 0, 0);
+    }
+    100% {
+        transform: translate3d(-25%, 0, 0);
+    }
+}

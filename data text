@@ -1,0 +1,65 @@
+<td>time that has gone by</td><td>15 seconds</td>
+<td>latitude             </td><td>0         </td>
+<td>longitude            </td><td>0         </td>
+<td>GPS altitude         </td><td>0         </td>
+<td>BMP altitude         </td><td>30383.04  </td>
+<td>BMP pressure         </td><td>2.34      </td>
+<td>BMP temperature      </td><td>0         </td>
+<td>Digital temperature  </td><td>24.12     </td>
+<td>CSS temperature      </td><td>25        </td>
+<td>CSS eCO2             </td><td>400       </td>
+<td>CSS TVOC             </td><td>0         </td>
+<td>UV                   </td><td>0         </td>
+<td>Accel X              </td><td>-0.87     </td>
+<td>Accel Y              </td><td>-0.02     </td>
+<td>Accel Z              </td><td>9.61      </td>
+<td>Magnetic X           </td><td>0.13      </td>
+<td>Magnetic Y           </td><td>0.57      </td>
+<td>Magnetic Z           </td><td>-0.24     </td>
+<td>Gyro X               </td><td>4.66      </td>
+<td>Gyro Y               </td><td>0.01      </td>
+<td>Gyro Z               </td><td>-0.4      </td>
+
+"seconds"    
+"latitude"   
+"longitude"  
+"gpsAltitude"
+"bmpAltitude"
+"bmpPressure"
+"bmpTemp"    
+"digTemp"    
+"cssTemp"    
+"csseCO2"    
+"cssTVOC"    
+"UV"      
+"accelX"    
+"accelY"     
+"accelZ"     
+"magnetX"    
+"magnetY"    
+"magnetZ"    
+"gyroX"     
+"gyroY"      
+"gyroZ"      
+
+time
+latitude
+longitude
+gps_altitude
+bmp_altitude
+bmp_pressure
+bmp_temp
+dig_temp
+css_temp
+css_eCO2
+css_TVOC
+UV
+accelX
+accelY
+accelZ
+magnetX
+magnetY
+magnetZ
+gyroX
+gyroY
+gyroZ
